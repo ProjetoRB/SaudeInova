@@ -1,0 +1,34 @@
+.container{
+    padding: 4cm;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 1px 5px 10px #00000067;
+}
+
+.rightside {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+}
+
+.leftside {
+    display: flex;
+    background-color: rgb(0, 162, 255);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
