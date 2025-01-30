@@ -15,7 +15,7 @@ export const Button = styled.button`
 const Cadastro = () => {
     return (
         <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non maxime, amet cum placeat exercitationem laborum quasi numquam voluptatem odio at expedita, necessitatibus iure blanditiis consequuntur. Ducimus suscipit qui quam cupiditate.
+                tela de Cadastro
             <Button>Login</Button>
         </div>
     )
