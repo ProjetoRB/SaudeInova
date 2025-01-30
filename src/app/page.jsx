@@ -12,7 +12,7 @@ const Login = () => {
           <p>Cadastre-se agora e receba as melhores ofertas de serviço médico do país!</p>
         </div>
         <div className={styles.rightside}>
-          <h1 className={styles.title}>Login</h1>
+          <h1 className={styles.title}>vitor gay</h1>
           <form action="" className={styles.form}>
             <input type="email" placeholder="Email" className={styles.input} />
             <input type="password" placeholder="Senha" className={styles.input} />
