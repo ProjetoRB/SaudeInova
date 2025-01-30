@@ -1,5 +1,6 @@
 "use client"
 import styles from "./Login.module.css"
+import Image from "next/image";
 
 const Login = () => {
 
@@ -7,10 +8,20 @@ const Login = () => {
     <div className={styles.container}>
       <div className={styles.box}>
         <div className={styles.leftside}>
-          
+          <Image className={styles.logo} src="/LogoSemFundo.png" alt="Logo" width={400} height={400} />
+          <p>Cadastre-se agora e receba as melhores ofertas de serviço médico do país!</p>
         </div>
         <div className={styles.rightside}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, quis, voluptatibus odio error dolore reiciendis nesciunt possimus expedita, tempora omnis nostrum aliquam corrupti accusamus vitae veniam voluptatem officia numquam quos.
+          <h1 className={styles.title}>Login</h1>
+          <form action="" className={styles.form}>
+            <input type="email" placeholder="Email" className={styles.input} />
+            <input type="password" placeholder="Senha" className={styles.input} />
+            <button className={styles.button}>Entrar</button>
+            <div className={styles.links}>
+              <a href="#">Esqueceu a senha? clique aqui</a>
+              <a href="#">Cadastre-se</a>
+            </div>
+          </form>
         </div>
       </div>
     </div>
